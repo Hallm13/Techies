@@ -5,6 +5,15 @@
 body {
   font-size: 10px;
   background-color: #fffdf5;
+}
+
+.Container {
+  width: 100%;
+  display:block;
+}
+
+section {
+  margin: 0 auto;
   max-width: 1260px;
 }
 
@@ -69,6 +78,8 @@ img {
   display: flex;
   /* border: 2px solid orange; */
   width: 100%;
+  border-top: 3px solid #123350;
+  border-bottom: 1px solid #123350;
 }
 
 .Footer ul {
@@ -78,6 +89,7 @@ img {
 .Footer img {
   margin-bottom: 20px;
 }
+
 h5 {
   font-family: FFSuperGroteskWebProMedium, sans-serif;
     letter-spacing: 0.15em;
@@ -105,4 +117,13 @@ color: #123352;
   width: 23px;
   display: inline-block;
   margin: 0 5%;
+}
+
+.Copyright {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #acacac;
+  font-family: FFSuperGroteskWebProMedium, sans-serif;
+  letter-spacing: 0.15em;
+  text-align: center;
 }
