@@ -15,6 +15,8 @@ body {
 section {
   margin: 0 auto;
   max-width: 1260px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* Top Navigation */
@@ -22,7 +24,6 @@ section {
   display:flex;
   /* border: 2px solid green; */
   width: 100%;
-  border-bottom: 2px solid #acacac;
   padding-bottom: 50px;
   /* text-align: center; */
 }
@@ -39,6 +40,11 @@ section {
   text-transform: uppercase;
   padding: 20px;
   list-style: none;
+  font-weight: 200;
+}
+
+h2 {
+  font-weight: 500;
 }
 
 .about {
@@ -58,6 +64,22 @@ img {
   height: auto;
 }
 
+/* Filter Section */
+.filter-wrapper {
+  font-family: FFSuperGroteskWebProMedium, sans-serif;
+  color: #acacac;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  text-align: center;
+  padding: 36px 0;
+  line-height: 0;
+  transition: color 0.5s ease;
+  border-top: 1px solid #123350;
+  border-bottom: 1px solid #123350;
+}
+
+
 /* Main Gallery */
 
 .gallery {
@@ -67,6 +89,7 @@ img {
   /* border: 2px solid blue; */
   width: 100%;
   list-style: none;
+  padding: 0;
 }
 
 .portrait {
@@ -163,4 +186,5 @@ h6 {
   font-family: FFSuperGroteskWebProMedium, sans-serif;
   letter-spacing: 0.15em;
   text-align: center;
+  margin-top: 45px;
 }
