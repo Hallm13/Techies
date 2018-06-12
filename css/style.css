@@ -10,6 +10,8 @@ body {
 .container {
   width: 100%;
   display:block;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 section {
@@ -26,6 +28,7 @@ section {
   width: 100%;
   padding-bottom: 50px;
   /* text-align: center; */
+  padding-left: 0px;
 }
 
 .nav li {
@@ -95,7 +98,7 @@ img {
 .portrait {
   /* border: 2px solid black; */
   text-align:center;
-  padding: 15px 15px 15px 15px;
+  padding: 15px 0px 15px 0px;
   color: #123350;
 }
 
@@ -233,16 +236,28 @@ h6 {
 
 .content-header {
   width: 100%;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 65px;
+  border-bottom: 1px solid #123350;
+  display:block;
 }
 
 .stats {
   width: 50%;
+  float: left;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .meta {
   margin: 0;
   padding: 0 50px 0 0;
   margin-bottom: 65px;
+  display: block;
+  list-style-type: disc;
+  font-size: 14px;
 }
 
 /* Icon Images */
@@ -264,6 +279,7 @@ h6 {
 .meta .date {
   background-image: url(https://techiesproject.com/d1lhy388c2xgxf/techies_interview_icon_date_2x.png);
   background-size: 23px;
+  border: 0;
 }
 
 
@@ -309,6 +325,10 @@ h6 {
   width: 50%;
   margin-top: 30px;
   margin-bottom: 65px;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
 }
 
 .abstract p {
@@ -327,7 +347,7 @@ h6 {
 }
 
 /* Responsiveness */
-@media all and (max-width 800px) {
+@media (max-width 800px) {
  section {
   max-width: 300px;
   padding-top: 20px;
