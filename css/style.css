@@ -241,6 +241,7 @@ h6 {
   margin-bottom: 65px;
   border-bottom: 1px solid #123350;
   display:block;
+  /* display: flex; */
 }
 
 .stats {
@@ -344,6 +345,65 @@ h6 {
   text-decoration: none;
   transition: color 0.5s ease;
   border-bottom: 3px solid #d2d2d2;
+}
+
+/* Interview */
+
+.interview {
+  display: flex;
+}
+
+.links {
+  width: 25%;
+}
+
+.personal-links {
+  padding: 40px 0;
+  margin-bottom: 25px;
+  background-color: #ffe8da;
+  text-align: center;
+  font-family: FFSuperGroteskWebProRegular, sans-serif;
+  letter-spacing: 0.15em;
+  font-size: 16px;
+  color: #123350;
+  text-decoration: none;
+}
+
+.personal-links ul li {
+  margin-bottom: 30px;
+}
+
+.personal-links ul li a {
+  font-size: 16px;
+  border-bottom: 3px solid #d2d2d2;
+  color: #123350;
+  text-decoration: none;
+}
+
+.personal-links h3 {
+  margin: 10px 0 50px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.post {
+  width: 50%;
+  border: 2px solid green;
+}
+
+strong {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff936d;
+  margin: 40px 0 10px 0;
+}
+
+.post p {
+  font-family: TiemposRegular, serif;
+  line-height: 1.75;
+  letter-spacing: 0;
+  font-size: 16px;
+  color: #333;
 }
 
 /* Responsiveness */
